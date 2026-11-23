@@ -49,7 +49,7 @@ header p {
 
 
 /*Main*/
-section * {
+section *, section {
     background-color: var(--background-lighter);
 }
 
