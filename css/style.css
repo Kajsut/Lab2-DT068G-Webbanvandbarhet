@@ -32,9 +32,6 @@ p, li {
     font-size: 1.1rem;
 }
 
-.quote {
-    font-size: 1.3rem;
-}
 
 
 /*Centera bilderna och ge dom rundade kanter*/
@@ -86,5 +83,5 @@ blockquote {
 }
 .quote {
     font-style: italic;
-
+    font-size: 1.3rem;
 }
