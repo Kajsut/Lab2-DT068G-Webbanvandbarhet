@@ -12,3 +12,11 @@
     background-color: var(--background-darker);
     font-family: "Roboto" , Arial, sans-serif;
 }
+
+h1, h2 {
+    color: var(--headingcolor);
+}
+
+p, li {
+    color: var(--textcolor);
+}
