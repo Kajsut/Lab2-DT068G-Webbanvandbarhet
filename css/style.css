@@ -103,6 +103,8 @@ blockquote {
     padding: 1rem;
     }
 
-    
+    .quote {
+        max-width: 50ch;
+    }
 
 }
