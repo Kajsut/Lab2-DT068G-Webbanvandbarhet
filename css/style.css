@@ -13,18 +13,19 @@
     font-family: "Roboto" , Arial, sans-serif;
 }
 
-/*Textens färger*/
+/*Textens färger och hur bred texten är*/
 h1, h2 {
     color: var(--headingcolor);
 }
 
 p, li {
     color: var(--textcolor);
+    max-width: 65ch;
 }
 
 /*Centera bilderna och ge dom rundade kanter*/
 img {
-    width: 95%;
+    max-width: 95%;
     display: block;
     margin: 1rem auto;
     border-radius: 10px;
