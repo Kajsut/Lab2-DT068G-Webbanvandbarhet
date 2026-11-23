@@ -21,6 +21,7 @@ h1, h2 {
 p, li {
     color: var(--textcolor);
     max-width: 65ch;
+    line-height: 1.6;
 }
 
 /*Centera bilderna och ge dom rundade kanter*/
@@ -29,4 +30,19 @@ img {
     display: block;
     margin: 1rem auto;
     border-radius: 10px;
+}
+
+/*HEADER*/
+header {
+    padding: 0 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem auto 1rem;
+}
+
+header p {
+    font-weight: 700;
+    margin: 0 auto;
 }
