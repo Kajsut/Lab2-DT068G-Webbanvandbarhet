@@ -33,7 +33,6 @@ p, li {
 }
 
 
-
 /*Centera bilderna och ge dom rundade kanter*/
 img {
     max-width: 95%;
@@ -64,7 +63,7 @@ section *, section {
 }
 
 section {
-    margin: 1rem 1rem;
+    margin: 1rem;
     border: 1px solid var(--details);
     border-radius: 10px;
 }
@@ -89,4 +88,8 @@ blockquote {
 
 .writer {
     padding-top: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    
 }
