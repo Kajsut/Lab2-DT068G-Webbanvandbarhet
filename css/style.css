@@ -13,16 +13,29 @@
     font-family: "Roboto" , Arial, sans-serif;
 }
 
-/*Textens färger och hur bred texten är*/
+/*Mått och färger på texter*/
 h1, h2 {
     color: var(--headingcolor);
+}
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 1.7rem;
 }
 
 p, li {
     color: var(--textcolor);
     max-width: 65ch;
     line-height: 1.6;
+    font-size: 1.1rem;
 }
+
+.quote {
+    font-size: 1.3rem;
+}
+
 
 /*Centera bilderna och ge dom rundade kanter*/
 img {
@@ -65,4 +78,13 @@ section h2 {
 
 section p, li {
     padding: 0 1rem 1rem 1rem;
+}
+
+/*Citat*/
+blockquote {
+    margin: 3rem 2rem;
+}
+.quote {
+    font-style: italic;
+
 }
