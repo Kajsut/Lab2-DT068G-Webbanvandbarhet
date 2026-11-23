@@ -81,7 +81,12 @@ section p, li {
 blockquote {
     margin: 3rem 2rem;
 }
+
 .quote {
     font-style: italic;
     font-size: 1.3rem;
+}
+
+.writer {
+    padding-top: 0.8rem;
 }
