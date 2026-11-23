@@ -5,3 +5,9 @@
     --headingcolor: #F1F5F9;
     --textcolor: #CBD5E1;
 }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--background-darker);
+}
