@@ -36,7 +36,6 @@ p, li {
     font-size: 1.1rem;
 }
 
-
 /*Centera bilderna och ge dom rundade kanter*/
 img {
     max-width: 95%;
@@ -60,7 +59,6 @@ header p {
     margin: 0 auto;
 }
 
-
 /*Main*/
 section *, section {
     background-color: var(--background-lighter);
@@ -71,7 +69,6 @@ section {
     border: 1px solid var(--details);
     border-radius: 10px;
 }
-
 
 section h2 {
     padding: 1rem;
@@ -102,7 +99,6 @@ footer {
     margin-top: 2rem;
     width: 100%;
 }
-
 
 @media (min-width: 768px) {
     /*Ändrar radlängd på texterna*/
