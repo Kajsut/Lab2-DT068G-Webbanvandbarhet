@@ -125,10 +125,12 @@ blockquote {
         flex-direction: row;
         align-items: center;
         justify-self: center;
+        width: 100%
     }
 
     footer img {
-        max-width: 55%;
+        max-width: 45%;
+        min-width: 35%;
     }
 
 }
