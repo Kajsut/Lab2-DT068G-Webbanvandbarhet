@@ -13,6 +13,8 @@
     font-family: "Roboto" , Arial, sans-serif;
 }
 
+
+
 /*Mått och färger på texter*/
 h1, h2 {
     color: var(--headingcolor);
@@ -92,10 +94,12 @@ blockquote {
 }
 
 @media (min-width: 768px) {
+    /*Ändrar radlängd på texterna*/
     p {
         max-width: 70ch;
     }
 
+    /*Ändrar storlek och plats på sektionerna*/
     section {
     max-width: 80ch;
     margin: 2rem auto;
@@ -103,6 +107,7 @@ blockquote {
     padding: 1rem;
     }
 
+    /*Citaten*/
     .quote {
         max-width: 50ch;
     }
@@ -111,6 +116,7 @@ blockquote {
         margin: auto;
     }
 
+    /*Footern*/
     footer {
         display: flex;
         flex-direction: row;
