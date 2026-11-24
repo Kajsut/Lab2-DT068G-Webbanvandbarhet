@@ -13,7 +13,9 @@
     font-family: "Roboto" , Arial, sans-serif;
 }
 
-
+header, header *, footer, footer * {
+    background-color: var(--background-lighter);
+}
 
 /*Mått och färger på texter*/
 h1, h2 {
@@ -45,12 +47,12 @@ img {
 
 /*HEADER*/
 header {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 h1 {
     text-align: center;
-    margin: 2rem auto 1rem;
+    margin: 1rem;
 }
 
 header p {
@@ -82,6 +84,7 @@ section p, li {
 /*Citat*/
 blockquote {
     margin: 3rem 2rem;
+    
 }
 
 .quote {
